@@ -1,0 +1,102 @@
+body{
+    height: 700px;
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image:linear-gradient(rgb(32, 55, 98),transparent);
+}
+header{
+    background: #2c3e50;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    
+}
+nav{
+    background: #34495e;
+    text-align: center;
+
+    padding: 10px;
+}
+nav a.active{
+    color: #1abc9c;
+    border-bottom: 2px solid #1abc9c;
+}
+nav a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #1abc9c;
+}
+main{
+    padding: 10px;
+}
+.card{
+    background: white;
+    padding: 20px;
+    margin: auto;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+}
+table{
+    width: 90%;
+    margin:auto;
+    background: white;
+    border-radius: 30px 10px;
+
+}
+th,td{
+    border: 1px solid #dbe7e1f3;
+    padding: 13px;
+    text-align: center;
+}
+th{
+    background: #2c3e50;
+    color: white;
+}
+tr:hover{
+    background: #f1d1f1;
+}
+form{
+    display: flex;
+    flex-direction:column;
+}
+input,textarea{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    background: #2c3e50;
+    border:none ;
+    border-radius: 10px;
+    height: 40px;
+    color:white;
+    cursor: pointer;
+
+}
+button:hover{
+    background: #1abc9c;
+}
+footer{
+    text-align: center;
+    padding: 5px;
+    background:rgba(64, 81, 105, 0.873) ;
+    color: white;
+    margin: top 20px;
+    border-radius: 30px 10px; 
+
+}
+@media(max-width:76px) {
+    .card,table{
+        width: 95%;
+    }
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
