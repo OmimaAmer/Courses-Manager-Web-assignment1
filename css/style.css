@@ -39,7 +39,7 @@ main{
     margin: auto;
     width: 60%;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0,1);
+    box-shadow: 0 0 10px rgba(0,0,0,0,0.1);
 }
 table{
     width: 90%;
@@ -87,11 +87,11 @@ footer{
     padding: 5px;
     background:rgba(64, 81, 105, 0.873) ;
     color: white;
-    margin: top 20px;
+    margin-top: 20px;
     border-radius: 30px 10px; 
 
 }
-@media(max-width:76px) {
+@media(max-width:768px) {
     .card,table{
         width: 95%;
     }
